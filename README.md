@@ -19,7 +19,13 @@ writes them in binary format to stdout. Each record consists of 96 bytes as ten
 data frame or data table like binary output written row-wise.
 
 ```
+# clone the project
+git clone https://github.com/Paradigm4/binary_load_example.git
+cd binary_load_example
+
+# compile
 gcc -O3 -o generator generator.c
+
 # run with
 ./generator N start
 ```
